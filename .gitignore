@@ -1,1 +1,4 @@
 matrix
+deb_pkg/
+*.deb
+
