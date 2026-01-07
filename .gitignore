@@ -1,4 +1,6 @@
+# binaries
 matrix
-deb_pkg/
-*.deb
 
+# deb buidl artifacts (ignore all except final package)
+deb_pkg/*
+!deb_pkg/*.deb
